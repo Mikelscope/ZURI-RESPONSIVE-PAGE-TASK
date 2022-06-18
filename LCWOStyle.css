@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    align-items: center;
+} */
+main{
+    background-image: url(./image/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%); 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#learn-code-section{
+    width: 40vw;
+    box-sizing: border-box;
+    padding: 20px;
+}#learn-code-section p{
+    font-size: 0.8em;
+}#learn-code-section h1{
+    font-size: 2.8em;
+    line-height: 0.9em;
+}
+.learn{
+    margin-bottom: 20px;
+}
+#form-section{
+    width: 40vw;
+    color: white;
+}#form-section h4{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+#try{
+    font-weight: 700;
+}
+input{
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 10px;
+} 
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    height: 40px;
+}
+input, button{
+    width: 80%;
+}
+#first-name-input{
+    margin-top: 20px;
+}
+#terms-text{
+    color: hsl(246, 25%, 77%);
+    font-size: 0.6em;
+    padding-bottom: 20px;
+}
+#terms{
+    color: hsl(0, 100%, 74%) ;
+    font-weight: 500;
+}
+@media screen and (max-width: 625px) {
+    main{
+        background-image: url(./image/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%); 
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    #form-section{
+        width: 90vw;
+    }
+    #learn-code-section{
+        width: 90vw;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+    }
+    #learn-code-section h1{
+        font-size: 2em;
+        line-height: 0.9em;
+    }
+    input, button{
+        height: 50px;
+    }
+    
+}
